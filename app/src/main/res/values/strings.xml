@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PlayPauseAnimation</string>
+
+    <declare-styleable name="PlayPauseState">
+        <attr name="state_play" format="boolean" />
+        <attr name="state_pause" format="boolean" />
+    </declare-styleable>
+    <string name="pause_path">M10,18 H6 L6,6 L10,6 M14,18 H18 L18,6 L14,6</string>
+    <string name="play_path">M12,16 H5 L8.5,10.5 L12,5 M12,16 H19 L15.5,10.5 L12,5</string>
+</resources>
